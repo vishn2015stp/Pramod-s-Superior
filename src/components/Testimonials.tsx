@@ -10,21 +10,21 @@ export default function Testimonials() {
       role: "Sec 4 O-Level Student",
       subject: "A-Maths & Physics",
       improvement: "Improved from C6 to A1",
-      quote: "Before joining Superior Family, I struggled with Additional Math formulas. Mr. Pramodh's method of breaking down complex questions made everything click. Got an A1 in my O-Levels!",
+      quote: "Before joining Pramod's Superior, I struggled with Additional Math formulas. Mr. Pramodh's method of breaking down complex questions made everything click. Got an A1 in my O-Levels!",
     },
     {
       name: "Mrs. Evelyn Lim",
       role: "Parent of JC Student",
       subject: "H2 Chemistry & H2 Math",
       improvement: "Distinction in A-Levels",
-      quote: "The personalized attention at Superior Family is top-tier. My daughter regained her confidence in Chemistry within weeks. The small class size made a huge difference.",
+      quote: "The personalized attention at Pramod's Superior is top-tier. My daughter regained her confidence in Chemistry within weeks. The small class size made a huge difference.",
     },
     {
       name: "Siddharth R.",
       role: "Sec 3 Pure Chemistry",
       subject: "Pure Chemistry",
       improvement: "Jumped 3 Grade Bands",
-      quote: "The summary notes provided by Superior Family are absolute gold! They cut through the clutter and helped me revise effectively before exams.",
+      quote: "The summary notes provided by Pramod's Superior are absolute gold! They cut through the clutter and helped me revise effectively before exams.",
     },
   ];
 

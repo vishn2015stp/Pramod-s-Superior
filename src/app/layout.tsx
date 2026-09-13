@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Superior Family | Premium Tuition Center",
-  description: "Elevating Education, Empowering Futures. High-quality tuition services designed for student excellence by Pramodh Prabakaran.",
-  keywords: ["Tuition Center", "Superior Family", "Pramodh Prabakaran", "Academic Excellence", "O Level Tuition", "A Level Tuition", "Math Physics Chemistry Tuition"],
+  title: "Pramod's Superior | Premium Tuition Center",
+  description: "Elevating Education, Empowering Futures. High-quality tuition services designed for student excellence by Pramodh Prabakaran. Located in Anchalummood & Alummoodu, Kollam, Kerala.",
+  keywords: ["Pramod's Superior", "Tuition Center", "Pramodh Prabakaran", "Anchalummood", "Alummoodu", "Kollam", "Kerala", "Academic Excellence", "Maths Tuition", "Science Tuition"],
   icons: {
-    icon: "/favicon.svg",
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
   },
 };
 

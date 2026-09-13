@@ -64,7 +64,7 @@ export default function EnrollModal({ isOpen, onClose, selectedCourse }: EnrollM
                   <span>Start Your Academic Excellence Journey</span>
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-bold font-serif-header text-[#1A1A1A]">
-                  Enroll at <span className="gold-gradient-text">Superior Family</span>
+                  Enroll at <span className="gold-gradient-text">Pramod's Superior</span>
                 </h3>
                 <p className="text-sm text-neutral-600">
                   Fill in the form below. Principal Tutor Pramodh Prabakaran or our admissions counselor will reach out within 24 hours.

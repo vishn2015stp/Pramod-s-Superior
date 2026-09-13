@@ -47,7 +47,7 @@ export default function WhyUs() {
             The Superior Edge
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif-header text-[#1A1A1A]">
-            Why Parents & Students Choose <span className="gold-gradient-text">Superior Family</span>
+            Why Parents & Students Choose <span className="gold-gradient-text">Pramod's Superior</span>
           </h2>
           <p className="text-base sm:text-lg text-neutral-600">
             We deliver more than just lessons—we cultivate mindset, mastery, and top academic honors.

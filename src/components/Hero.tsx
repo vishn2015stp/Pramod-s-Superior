@@ -22,7 +22,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
             {/* Pill Tag */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F3E5AB]/40 border border-[#D4AF37]/30 text-xs sm:text-sm font-semibold text-[#1A1A1A]">
               <Sparkles className="w-4 h-4 text-[#D4AF37]" />
-              <span>Singapore&apos;s Premier Academic Mentorship</span>
+              <span>Kerala&apos;s Premier Tuition — Anchalummood &amp; Alummoodu</span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37] animate-pulse" />
             </div>
 

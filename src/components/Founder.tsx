@@ -106,13 +106,13 @@ export default function Founder() {
                 {/* Visionary Text Body */}
                 <div className="space-y-4 text-neutral-700 text-base sm:text-lg leading-relaxed font-normal">
                   <p>
-                    Welcome to <strong className="text-[#1A1A1A] font-semibold">Superior Family</strong>. When I founded this tuition center, my core goal was simple yet transformative: to create an educational sanctuary where every student receives the individual focus, encouragement, and academic rigor they deserve.
+                    Welcome to <strong className="text-[#1A1A1A] font-semibold">Pramod's Superior</strong>. When I founded this tuition center, my core goal was simple yet transformative: to create an educational sanctuary where every student receives the individual focus, encouragement, and academic rigor they deserve.
                   </p>
                   <p>
                     Over the years, we have guided hundreds of students from struggling grades to distinction-level confidence. We break down complex concepts into intuitive, digestible insights, making learning an empowering experience rather than a daunting chore.
                   </p>
                   <p className="text-sm sm:text-base text-neutral-600 italic border-l-2 border-[#D4AF37] pl-4 py-1">
-                    &quot;At Superior Family, every student is treated like family. We take personal ownership of their growth, celebrate their milestones, and walk every step of their academic journey alongside them.&quot;
+                    &quot;At Pramod's Superior, every student is treated like family. We take personal ownership of their growth, celebrate their milestones, and walk every step of their academic journey alongside them.&quot;
                   </p>
                 </div>
 
@@ -139,7 +139,7 @@ export default function Founder() {
                 <div className="pt-4 flex items-center justify-between">
                   <div>
                     <p className="font-serif-header text-xl font-bold text-[#1A1A1A]">Pramodh Prabakaran</p>
-                    <p className="text-xs font-semibold text-[#D4AF37]">Founder & Lead Educator, Superior Family</p>
+                    <p className="text-xs font-semibold text-[#D4AF37]">Founder & Lead Educator, Pramod's Superior</p>
                   </div>
                 </div>
 
