@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { UserCheck, Award, HeartHandshake, Quote, ShieldCheck, GraduationCap } from "lucide-react";
+import Image from "next/image";
+import { Award, HeartHandshake, Quote, ShieldCheck, GraduationCap } from "lucide-react";
 
 export default function Founder() {
   return (
@@ -31,40 +32,36 @@ export default function Founder() {
           <div className="bg-[#FDFBF7] rounded-[23px] p-6 sm:p-10 lg:p-14 border border-[#D4AF37]/20">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
               
-              {/* Image Placeholder Block (Left Side) */}
+              {/* Founder Photo Block (Left Side) */}
               <div className="lg:col-span-5 relative">
                 <div className="relative mx-auto max-w-sm lg:max-w-none">
-                  {/* Subtle Glow Behind Frame */}
+                  {/* Subtle Gold Glow Behind Frame */}
                   <div className="absolute -inset-2 bg-[#D4AF37]/20 rounded-2xl blur-lg" />
-                  
+
                   {/* Founder Image Frame Container */}
                   <div className="relative rounded-2xl overflow-hidden bg-white p-3 border-2 border-[#D4AF37]/40 shadow-xl space-y-4">
-                    
-                    {/* Visual Image Placeholder */}
-                    <div className="relative h-80 sm:h-96 w-full rounded-xl overflow-hidden bg-gradient-to-t from-[#1A1A1A] via-[#2A2A2A] to-[#3A3A3A] flex flex-col items-center justify-center p-6 text-center group">
-                      
-                      {/* Avatar Placeholder Icon */}
-                      <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#F3E5AB] p-1 shadow-lg mb-4 flex items-center justify-center">
-                        <div className="w-full h-full bg-[#1A1A1A] rounded-full flex items-center justify-center">
-                          <UserCheck className="w-12 h-12 text-[#D4AF37]" />
+
+                    {/* Real Founder Photo */}
+                    <div className="relative h-80 sm:h-96 w-full rounded-xl overflow-hidden">
+                      <Image
+                        src="/founder.jpg"
+                        alt="Pramodh Prabakaran — Founder, Pramod's Superior"
+                        fill
+                        className="object-cover object-top"
+                        priority
+                      />
+                      {/* Overlay gradient at the bottom for the name badge */}
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pt-12 pb-4 px-4 flex flex-col items-center text-center">
+                        <span className="text-xs font-semibold text-[#F3E5AB] uppercase tracking-widest bg-black/50 px-3 py-1 rounded-full border border-[#D4AF37]/40 mb-1.5">
+                          Founder &amp; Principal Tutor
+                        </span>
+                        <h4 className="text-lg font-bold font-serif-header text-white drop-shadow-lg">
+                          Pramodh Prabakaran
+                        </h4>
+                        <div className="mt-2 flex items-center justify-center gap-1.5 text-xs text-[#D4AF37]">
+                          <Award className="w-3.5 h-3.5" />
+                          <span>Master Educator &amp; Academic Director</span>
                         </div>
-                      </div>
-
-                      <span className="text-xs font-semibold text-[#F3E5AB] uppercase tracking-widest bg-black/40 px-3 py-1 rounded-full border border-[#D4AF37]/30 mb-2">
-                        Founder & Principal Tutor
-                      </span>
-                      
-                      <h4 className="text-xl font-bold font-serif-header text-white">
-                        Pramodh Prabakaran
-                      </h4>
-                      
-                      <p className="text-xs text-neutral-300 mt-1 max-w-xs">
-                        [Founder Photo Placeholder]
-                      </p>
-
-                      <div className="mt-4 pt-3 border-t border-neutral-700/60 w-full flex items-center justify-center gap-2 text-xs text-[#D4AF37]">
-                        <Award className="w-4 h-4" />
-                        <span>Master Educator & Academic Director</span>
                       </div>
                     </div>
 
