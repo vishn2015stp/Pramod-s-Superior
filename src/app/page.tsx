@@ -9,6 +9,7 @@ import WhyUs from "@/components/WhyUs";
 import Testimonials from "@/components/Testimonials";
 import EnrollModal from "@/components/EnrollModal";
 import Footer from "@/components/Footer";
+import LoadingScreen from "@/components/LoadingScreen";
 
 export default function Home() {
   const [isEnrollModalOpen, setIsEnrollModalOpen] = useState(false);
@@ -25,34 +26,39 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-[#FDFBF7] text-[#1A1A1A] font-sans antialiased overflow-x-hidden selection:bg-[#F3E5AB] selection:text-[#1A1A1A]">
-      {/* Sticky Header */}
-      <Navbar onOpenEnrollModal={() => handleOpenEnrollModal()} />
+    <>
+      {/* Premium Loading Screen — shown on first page visit */}
+      <LoadingScreen />
 
-      {/* Hero Section */}
-      <Hero onOpenEnrollModal={() => handleOpenEnrollModal()} />
+      <main className="min-h-screen bg-[#FDFBF7] text-[#1A1A1A] font-sans antialiased overflow-x-hidden selection:bg-[#F3E5AB] selection:text-[#1A1A1A]">
+        {/* Sticky Header */}
+        <Navbar onOpenEnrollModal={() => handleOpenEnrollModal()} />
 
-      {/* Founder / About Section */}
-      <Founder />
+        {/* Hero Section */}
+        <Hero onOpenEnrollModal={() => handleOpenEnrollModal()} />
 
-      {/* Course Offerings 3-Column Responsive Grid */}
-      <Courses onOpenEnrollModal={(course) => handleOpenEnrollModal(course)} />
+        {/* Founder / About Section */}
+        <Founder />
 
-      {/* Value Propositions / Why Superior */}
-      <WhyUs />
+        {/* Course Offerings 3-Column Responsive Grid */}
+        <Courses onOpenEnrollModal={(course) => handleOpenEnrollModal(course)} />
 
-      {/* Testimonials & Transformations */}
-      <Testimonials />
+        {/* Value Propositions / Why Superior */}
+        <WhyUs />
 
-      {/* Interactive Enrollment Modal */}
-      <EnrollModal
-        isOpen={isEnrollModalOpen}
-        onClose={handleCloseEnrollModal}
-        selectedCourse={selectedCourse}
-      />
+        {/* Testimonials & Transformations */}
+        <Testimonials />
 
-      {/* Footer */}
-      <Footer />
-    </main>
+        {/* Interactive Enrollment Modal */}
+        <EnrollModal
+          isOpen={isEnrollModalOpen}
+          onClose={handleCloseEnrollModal}
+          selectedCourse={selectedCourse}
+        />
+
+        {/* Footer */}
+        <Footer />
+      </main>
+    </>
   );
 }
